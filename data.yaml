@@ -1,0 +1,13 @@
+train: /content/drive/MyDrive/Dataset/train/images
+val: /content/drive/MyDrive/Dataset/valid/images
+test: /content/drive/MyDrive/Dataset/test/images
+
+nc: 8
+names: ['button', 'field', 'heading', 'iframe', 'image', 'label', 'link', 'text']
+
+roboflow:
+  workspace: web-detection
+  project: thirdeye
+  version: 5
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/web-detection/thirdeye/dataset/5
